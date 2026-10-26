@@ -7,7 +7,7 @@ dotenv.config({quiet: true});
 
 const app = express();
 
-app.use(cors({ origin: "http://localhost:3000"}));
+app.use(cors({ origin: "https://brandpress-frontend.onrender.com"}));
 
 app.use(express.json());
 
